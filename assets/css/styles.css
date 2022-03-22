@@ -511,7 +511,7 @@ img{
 }
 
 .skills_js{
-    width: 60%;
+    width: 80%;
 }
 
 .skills_php{
@@ -519,11 +519,11 @@ img{
 }
 
 .skills_photoshop{
-    width: 55%;
+    width: 45%;
 }
 
 .skills_ilustrator{
-    width: 45%;
+    width: 35%;
 }
 
 .skills_wordpress{
@@ -559,7 +559,6 @@ img{
 .skills_open .skills_arrow{
     transform: rotate(-180deg);
 }
-/*==================== QUALIFICATION ====================*/
 
 
 /*==================== SERVICES ====================*/
@@ -661,8 +660,6 @@ img{
 
 /*==================== PORTFOLIO ====================*/
 
-
-/*==================== PROJECT IN MIND ====================*/
 .project{
     text-align: center;
 }
@@ -690,7 +687,6 @@ img{
     width: 232px;
     justify-self: center;
 }
-/*==================== TESTIMONIAL ====================*/
 
 
 /*==================== CONTACT ME ====================*/
