@@ -690,13 +690,20 @@ img{
 
 
 /*==================== CONTACT ME ====================*/
+
 .contact_container{
     row-gap: 3rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .contact_information{
     display: flex;
     margin-bottom: var(--mb-2);
+}
+
+.contact_information:hover{
+    transform: scale(1.1);
 }
 
 .contact_icon{
@@ -866,7 +873,7 @@ img{
     .qualification_data{
         gap: .5rem;
     } */
-
+ 
     .services_container{
         grid-template-columns: max-content;
         justify-content: center;
