@@ -688,6 +688,9 @@ img{
     justify-self: center;
 }
 
+.project_container a:hover{
+    transform: scale(1.1);
+}
 
 /*==================== CONTACT ME ====================*/
 
@@ -700,10 +703,16 @@ img{
 .contact_information{
     display: flex;
     margin-bottom: var(--mb-2);
+    
 }
 
-.contact_information:hover{
+.project_data a:hover i{
+    color: #fff;
+    background-color: #25D366;
+    border-radius: 100%;
+    padding: 0 5px 0 5px;
     transform: scale(1.1);
+    transform: translateX(5px);
 }
 
 .contact_icon{
